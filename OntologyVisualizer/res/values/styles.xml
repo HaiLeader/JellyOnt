@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style
+    name="Theme_Dialog_Translucent"
+    parent="android:Theme.Dialog">
+    <item
+        name="android:windowBackground">@null</item>
+</style>
+
+
+</resources>

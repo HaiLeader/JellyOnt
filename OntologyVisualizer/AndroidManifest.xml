@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.polito.elite.android.widget.radialmenu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/myapp_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name="it.polito.elite.android.ontology.CreateOntologyActivity" >
+        </activity>
+        <activity android:name="it.polito.elite.android.ontology.OntologyFileManager" >
+        </activity>
+        <activity
+            android:name="it.polito.elite.android.ontology.ViewOntologyActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="it.polito.elite.android.ontology.HomePageActivity"
+            android:label="@string/myapp_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">RadialMenuWidget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="insert_url">Insert URL</string>
+    <string name="go">GO</string>
+    <string name="app_label">Ontology Visualizer</string>
+    <string name="addtobookmark">Add to bookmarks</string>
+    <string name="setbookmarklabel">Set Bookmark Label</string>
+    <string name="finish">Finish</string>
+    <string name="choose_nodes">Choose nodes...</string>
+    <string name="add">add</string>
+    <string name="Add">Add</string>
+    <string name="myapp_name">Ontology Viewer</string>
+    <string name="notavailableyet">Not Available Yet...</string>
+
+</resources>
